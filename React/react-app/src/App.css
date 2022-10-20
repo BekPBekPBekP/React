@@ -24,9 +24,10 @@
   color: white;
 }
 
-.paragraph1 {
+.Paragraph1 {
   color: rgb(238, 46, 180);
   font-weight: 400;
+  text-align: center;
 }
 
 .App-link {

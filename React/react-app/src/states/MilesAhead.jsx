@@ -1,4 +1,6 @@
 import { useState } from "react";
+import PropTypes from 'prop-types';
+import Button from 'react-bootstrap/Button';
 
 const MilesAhead = () => {
 
@@ -12,7 +14,7 @@ const MilesAhead = () => {
         <>
             <p>Today you've taken {steps} steps!</p>
             <br />
-            <button onClick={increment}>I took another step</button>
+            <Button variant="success" type="button" onClick={increment}>I took another step</Button>
         </>
     );
 }
